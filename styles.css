@@ -1,0 +1,72 @@
+h1 {
+    color: #D0D0D0;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: #D0D0D0;
+}
+
+body {
+    background-color: #363942; 
+    background-image: url("images/Background.png");
+    background-size: 100% ;
+    text-align: center; 
+}
+
+.add {
+    background-image: url("images/Button.png");
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.input {
+    width: 70%;
+    height: 50px;
+    padding: 20px;
+    padding-left: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: #DADADA;
+    opacity: 0.8;
+}
+
+.draggable-list {
+    line-height: 25x;
+    justify-content: center;
+    border-radius: 40px;
+    list-style: none;
+}
+
+.draggable {
+    display: inline-block;
+    margin-right: 5%;
+    justify-content: center;
+    width: 70%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 40px;
+    background-color: #EDEDED;
+    color: #363942;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+labelNum {
+    display: inline-block;
+    background-image: url("images/Number.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    padding: 20px;
+    color: #E8EA8C;
+    font-size: 40px;
+    font-family: monospace
+}
